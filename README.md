@@ -1,2 +1,2 @@
 # ILT
-I learned today.
+I learned today. I hope so.
