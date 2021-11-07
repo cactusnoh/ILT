@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int peak_finder_binary(std::vector<int> numbers)
+int peak_finder_1D(std::vector<int> numbers)
 {
     int left = 0, right = numbers.size() - 1;
 
@@ -37,7 +37,7 @@ int main()
         numbers.push_back(i);
     std::cout << "\n\n";
     
-    std::cout << "Index " << peak_finder_binary(numbers) << " is the peak of this vector." << std::endl;
+    std::cout << "Index " << peak_finder_1D(numbers) << " is the peak of this vector." << std::endl;
 
     return 0;
 }
